@@ -14,7 +14,7 @@
 
 #### 🔹프로젝트 목적
 
-본 프로젝트는 데이터 기반의 체계적인 고객 분석을 통해 이커머스 비즈니스의 전반적인 성과를 개선하고자 한다. 고객이 유입되는 시점부터 최종 구매에 이르는 전 과정을 다각도로 분석함으로써, 각 단계에서 발생하는 비효율과 기회 요소를 명확히 파악할 수 있다. 이를 마탕으로 마케팅 자원의 효율적 배분, 사용자 경험 최적화, 그리고 신규/재방문별 맞춤 전략을 수립하여 궁극적으로 매출 증대와 고객 만족도 향상을 동시에 달성하고자 한다. 
+본 프로젝트는 데이터 기반의 체계적인 고객 분석을 통해 이커머스 비즈니스의 전반적인 성과를 개선하고자 한다. 고객이 유입되는 시점부터 최종 구매에 이르는 전 과정을 다각도로 분석함으로써, 각 단계에서 발생하는 **비효율**과 **기회 요소**를 명확히 파악할 수 있다. 이를 마탕으로 마케팅 자원의 효율적 배분, 사용자 경험 최적화, 그리고 신규/재방문별 맞춤 전략을 수립하여 궁극적으로 **매출 증대**와 **고객 만족도 향상**을 동시에 달성하고자 한다. 
 
 ---
 
@@ -69,35 +69,43 @@
 
 #### 🔍 분석 내용 정리
 
----
-
 #### 1. 전체 흐름 지표
-- 1-1. Acquisition를 위한 테이블 생성 및 시각화
-- 1-2. 코호트 분석
-- 1-3. ARPU / ARPPU 분석
-- 1-4. 브라우저 / 운영체제 / 기기별 유입 Top 20
+- 1-1. Acquisition 변수 탐색 및 시각화
+- 1-2. ARPU / ARPPU 분석
+- 1-3. 고객별 누적 매출 분포 (Pareto)
+- 1-4. 브라우저·운영체제·기기별 Top 20 유입군 ARPU/전환율 분석
 - 1-5. 기기 유형별 Acquisition 품질 비교 (모바일 vs 데스크탑 vs 태블릿)
-- 1-6. 고객별 누적 매출 분포 (Pareto 분석)
-- 1-7. 브라우저별 Revenue 비교
-- 1-8. 국가별 Revenue Top 10 분석
-- 1-9. 제품별 Revenue 비교
+- 1-6. 국가별 Revenue Top 10 분석
+- 1-7. 제품별 Revenue 비교
 
 ---
 
 #### 2. 날짜 흐름 지표
-- 2-1. visitStartTime 기반 유입 트렌드
-- 2-2. DAU / MAU / Stickiness
-- 2-3. Classic Retention (N일 후 재방문율)
-- 2-4. 요일별 Retention
-- 2-5. Long Retention (30~60일 내 재방문)
+- 2-1. 코호트 분석
+- 2-2. visitStartTime 기반 유입 트렌드
+- 2-3. DAU / MAU / Stickiness
+- 2-4. Classic Retention (N일 후 재방문율)
+- 2-5. 요일별 Retention
+- 2-6. Long Retention (30~60일 내 재방문)
 
 ---
 
 #### 3. 유입경로별 AARRR 분석
 - 3-1. Acquisition
+    - source별 세션 수와 신규 방문자 수
+    - source_medium별 세션 수와 신규 방문자 수
+    - channelGrouping별 세션 수와 신규 방문자 수
+    - medium의 Non_Paid vs Paid 세션 수 비교
 - 3-2. Activation
+    - channelGrouping별 체류시간
+    - channelGrouping별 이탈률 (bounces 기준)
+    - channelGrouping별 이탈률 (eventAction 기준)
 - 3-3. Retention
+    - channelGrouping별 7일/30일 이내 재방문율
 - 3-4. Revenue
+    - channelGrouping별 ARPU
+    - channelGrouping별 구매 전환율
+    - channelGrouping별 첫 방문 이후 평균 구매 소요일 
 
 ---
 

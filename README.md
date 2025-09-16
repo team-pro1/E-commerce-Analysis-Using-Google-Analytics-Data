@@ -50,7 +50,7 @@
 
 | 항목 | 내용 |
 |------|------|
-| Python       |![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white) ![seaborn](https://img.shields.io/badge/seaborn-76B7B2?style=flat&logo=seaborn&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white) ![numpy](https://img.shields.io/badge/numpy-013243?style=flat&logo=numpy&logoColor=white)|
+| Python       |![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white) ![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white) ![seaborn](https://img.shields.io/badge/seaborn-76B7B2?style=flat&logo=seaborn&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white) ![numpy](https://img.shields.io/badge/numpy-013243?style=flat&logo=numpy&logoColor=white) ![regex](https://img.shields.io/badge/re-000000?style=flat&logo=regex&logoColor=white) ![collections](https://img.shields.io/badge/collections.Counter-3776AB?style=flat&logo=python&logoColor=white) ![plotly](https://img.shields.io/badge/plotly-3F4F75?style=flat&logo=plotly&logoColor=white) ![networkx](https://img.shields.io/badge/networkx-000000?style=flat&logo=python&logoColor=white) ![hmmlearn](https://img.shields.io/badge/hmmlearn-FF6F00?style=flat&logo=python&logoColor=white) ![LabelEncoder](https://img.shields.io/badge/LabelEncoder-00A98F?style=flat&logo=scikit-learn&logoColor=white)|
 
 #### 데이터 설명 
 

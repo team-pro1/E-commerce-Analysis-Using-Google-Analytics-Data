@@ -69,6 +69,14 @@
 
 #### 🔍 분석 내용 정리
 
+- 📑 [보고서 (Notion)](https://www.notion.so/273b3e70357580c891dfc87323c20e09)  
+- 💻 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/<colab-id>)
+
+
+
+
+
+
 #### 1. 전체 흐름 지표
 - 1-1. Acquisition 변수 탐색 및 시각화
 - 1-2. ARPU / ARPPU 분석

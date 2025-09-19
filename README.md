@@ -67,15 +67,10 @@
 
 ### 5. 프로젝트 내용
 
-#### 🔍 분석 내용 정리
-
 - 📑 [보고서 (Notion)](https://www.notion.so/273b3e70357580c891dfc87323c20e09)  
-- 💻 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/<colab-id>)
+- 💻 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/team-pro1/E-commerce-Analysis-Using-Google-Analytics-Data/tree/main/%EC%BD%94%EB%93%9C)
 
-
-
-
-
+#### 🔍 분석 내용 정리
 
 #### 1. 전체 흐름 지표
 - 1-1. Acquisition 변수 탐색 및 시각화

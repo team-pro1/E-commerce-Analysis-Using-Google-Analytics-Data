@@ -20,7 +20,7 @@
 
 ### 2. 팀원 소개
 
-| 사진 | 사진 | 사진 | ![alt text](image.png) | 
+| ![alt text](image-1.png) | ![alt text](image-3.png) | ![alt text](image-2.png) | ![alt text](image.png) | 
 |------|------|------|------|
 | 김혜원 | 변해민 | 양원선 | 전수연 | 
 
@@ -67,8 +67,16 @@
 
 ### 5. 프로젝트 내용
 
-- 📑 [보고서 (Notion)](https://www.notion.so/273b3e70357580c891dfc87323c20e09)  
-- 💻 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/team-pro1/E-commerce-Analysis-Using-Google-Analytics-Data/tree/main/%EC%BD%94%EB%93%9C)
+- 📑 [전체 보고서 (Notion)](https://www.notion.so/273b3e70357580c891dfc87323c20e09) 
+- 📊 [A/B test 보고서 (Notion)](https://www.notion.so/A-B-Test-24c95d13920080fbb959c5dc035798f3) 
+- 💻 코드
+    - [전체 흐름 지표 (colab)](https://colab.research.google.com/drive/1JoRZfBuGixkqC1PJw1y5x9bCIAp2-NyJ)
+    - [날짜 및 요일 지표 (colab)](https://colab.research.google.com/drive/1EBY8UBOm26-MkAToXV3EtyQEW9FIa88D)
+    - [유입경로별 AARRR (colab)](https://colab.research.google.com/drive/1EnhEJLBnWiBzHtqkc-AYnseuVr66PFOL)
+    - [퍼널분석 및 이벤트 행동 분석 (colab)](https://colab.research.google.com/drive/1yeh-CjmYydD-A7G0bsurjRpdO_hMp5Kg)
+    - [페이지 흐름 분석1 (colab)](https://colab.research.google.com/drive/1nJ7Xr2dVzaNBtIRGxNYy1981r6z9OQvI)
+    - [페이지 흐름 분석2 (colab)](https://colab.research.google.com/drive/1Yuz8QQDo0twzR5zUJyinraOp21ZspXxn)
+    - [A/B test (colab)](https://colab.research.google.com/drive/1bjQOVQztZuWdSk9mkEQ1EQdnO0t1pK8A)
 
 #### 🔍 분석 내용 정리
 
@@ -152,12 +160,28 @@
 
 
 ---
+#### 6. 광고/UX A/B Test 분석
 
+##### 주요 가설
+1. 광고 위치(브랜드 영역 vs 하단 추천 영역)에 따른 클릭률 차이
+2. 광고 유형(이미지 vs 텍스트)에 따른 구매 전환율 차이
+3. 제품 노출 수(12개 이하/이상)에 따른 이탈률 차이
+
+##### 결과 요약
+- 광고 위치: 브랜드 영역 클릭률 > 하단 추천 영역 클릭률
+- 광고 유형: 전환율 차이 없음(데이터 불균형 이슈)
+- 제품 노출 수: 12개 이상 노출 시 이탈률 감소
+
+##### 인사이트
+- 광고 위치 최적화로 CTR 향상 가능
+- 추가 데이터 확보 후 광고 유형 효과 재검증 필요
+- 최소 12개 제품 노출로 이탈률 감소 가능
+---
 ### 6. 한 줄 소감 
 
 | 팀원 | 소감 |
 |------|------|
-| 김혜원 | |
-| 변해민 | |
-| 양원선 | |
+| 김혜원 | 이번 프로젝트를 통해 사용자 행동 데이터를 직접 다루고, BigQuery를 연결해 쿼리를 작성하며 결과를 도출하는 과정을 경험할 수 있었습니다. 단순히 데이터를 불러오는 수준을 넘어 실제로 분석 흐름을 설계하고 시각화까지 이어가면서, 이커머스 데이터 구조와 해석 방식에 대한 이해도를 크게 높일 수 있었습니다. 데이터 분석 전 과정을 직접 수행해 본 값진 경험이었다고 생각합니다. |
+| 변해민 | 이커머스 데이터의 전체 구조와 흐름을 이해하고 SQL을 활용하여 실제 분석을 수행하며 데이터 기반 의사결정 과정을 직접 체험하고 실무 감각을 익힐 수 있는 좋은 경험이었습니다. |
+| 양원선 | 고객 행동 분석에서 얻은 인사이트를 바탕으로 마케팅 전략을 제시하며, 데이터가 비즈니스의 방향성을 제시하는 중요한 도구임을 실감했습니다. |
 | 전수연 | 단순한 지표 해석을 넘어, 사고가 확장되는 과정을 거치며 데이터가 전략적 통찰로 이어지는 즐거움을 경험했습니다. |
